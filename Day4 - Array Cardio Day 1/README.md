@@ -1,9 +1,16 @@
 <h1><b>筆記</b></h1>
 
-<h4><b>1. css variables</b></h4>
-<p>以 -- 開頭來命名 / 定義變數</p>
-<p>:root命名變數</p>
-<p>var()呼叫該變數</p>
+<h4><b>1. Array.prototype.filter()</b></h4>
+<p>會建立一個經指定之函式運算後，由原陣列中通過該函式檢驗之元素所構成的新陣列</p>
 
-`:root {--base: lightgreen;}`<br>
-` .hl {color: var(--base);}`
+<h4><b>2. Array.prototype.map()</b></h4>
+<p>會建立一個新的陣列，其內容為原陣列的每一個元素經由回呼函式運算後所回傳的結果之集合</p>
+
+<h4><b>3. Array.prototype.sort()</b></h4>
+<p>會原地（in place）對一個陣列的所有元素進行排序，並回傳此陣列</p>
+
+<h4><b>4. Array.prototype.reduce()</b></h4>
+<p>將一個累加器及陣列中每項元素（由左至右）傳入回呼函式，將陣列化為單一值</p>
+
+<h4><b>5. String.prototype.split()</b></h4>
+<p>使用指定的分隔符字符串將一個字符串對象分割成子字符串分割，以一個指定的分割字串來決定每個分割的位置</p>
