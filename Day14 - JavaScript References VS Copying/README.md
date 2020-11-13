@@ -25,14 +25,14 @@
 `const array = Array.from([1, 2, 3], x => x + x);`<br>
 `console.log(array); //Array [2, 4, 6]`
 
-<h4><b>7. Object.assign()</b></h4>
+<h4><b>6. Object.assign()</b></h4>
 <p>被用來複製一個或多個物件自身所有可數的屬性到另一個目標物件。回傳的值為該目標物件</p>
 
 `var obj = { a: 1 };`<br>
 `var copy = Object.assign({}, obj);`<br>
 `console.log(copy); // { a: 1 }`
 
-<h4><b>8. JSON.stringify() 和 JSON.parse()</b></h4>
+<h4><b>7. JSON.stringify() 和 JSON.parse()</b></h4>
 <p>JSON.parse()：JSON 變物件</p>
 
 ` var shop = JSON.parse('{"food":"apple"}')`<br>
