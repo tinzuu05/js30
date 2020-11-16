@@ -39,18 +39,18 @@
 
 <h4><b>7. 下載圖片並儲存至本地端方法</b></h4>
 <p>Step1: HTMLCanvasElement.toDataURL()回傳含有圖像和參數設置特定格式的 data URIs (預設 PNG). 回傳的圖像解析度為 96 dpi.</p>
-canvas.toDataURL(type, encoderOptions);<br>
-const data = canvas.toDataURL("image/jpeg");<br>
+<p>canvas.toDataURL(type, encoderOptions);</p>
+<p>const data = canvas.toDataURL("image/jpeg");</p>
 
 <p>Step2: Document.createElement() 方法可以依指定的標籤名稱（tagName）建立 HTML 元素，或是在未定義標籤名稱下建立一個 HTMLUnknownElement</p>
-var element = document.createElement(tagName[, options]);<br>
-const link = document.createElement("a");<br>
+<p>var element = document.createElement(tagName[, options]);</p>
+<p>const link = document.createElement("a");</p>
 
 <p>Step3: link.href = data</p>
 <p>Step4: link.setAttribute("download", "name");</p>
 <p>Step5: link.innerHTML = (字串`) (<)img src="${data}" alt="name" (/>) (字串`);</p>
 <p>Step6: Node.insertBefore()在父元素下，將每次新產的link插入至第一個子元素的最前面</p>
-strip.insertBefore(link, strip.firstChild)<br>
+<p>strip.insertBefore(link, strip.firstChild)</p>
 
 <h4><b>9. 效果設定，以四個色板rgba對應0,1,2,3下去做調整，i+=4是因為rgba四個為一組，所以每次跳四個才會到下一個rgba</b></h4>
 <p>紅色效果-將r部分的顏色提高，其餘減少</p>
