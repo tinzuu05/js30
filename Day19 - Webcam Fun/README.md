@@ -39,12 +39,12 @@
 
 <h4><b>7. 下載圖片並儲存至本地端方法</b></h4>
 <p>Step1: HTMLCanvasElement.toDataURL()回傳含有圖像和參數設置特定格式的 data URIs (預設 PNG). 回傳的圖像解析度為 96 dpi.</p>
-`canvas.toDataURL(type, encoderOptions);`
-`const data = canvas.toDataURL("image/jpeg");`
+ `canvas.toDataURL(type, encoderOptions);`<br>
+ `const data = canvas.toDataURL("image/jpeg");`
 
 <p>Step2: Document.createElement() 方法可以依指定的標籤名稱（tagName）建立 HTML 元素，或是在未定義標籤名稱下建立一個 HTMLUnknownElement</p>
-`var element = document.createElement(tagName[, options]);`
-`const link = document.createElement("a");`
+ `var element = document.createElement(tagName[, options]);`<br>
+ `const link = document.createElement("a");`
 
 <p>Step3: link.href = data</p>
 <p>Step4: link.setAttribute("download", "name");</p>
