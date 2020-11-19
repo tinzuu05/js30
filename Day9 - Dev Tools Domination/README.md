@@ -1,6 +1,7 @@
 <h1><b>筆記</b></h1>
 
 <h4><b>1. console.log()一般測試用法</b></h4>
+
 `console.log('hello world');`
 
 <h4><b>2. console.log()混和用法</b></h4>
