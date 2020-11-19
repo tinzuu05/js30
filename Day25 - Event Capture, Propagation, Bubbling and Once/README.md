@@ -4,7 +4,7 @@
 <p>由子層傳到父層</p>
 
 <h4><b>2. 事件捕捉(Event Bubbling)</b></h4>
-<p>由子父層傳到子層</p>
+<p>由父層傳到子層</p>
 
 <h4><b>3. 防止事件冒泡</b></h4>
 <p>e.stopPropagation()</p>
